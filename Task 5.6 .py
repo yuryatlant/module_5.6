@@ -19,7 +19,7 @@ def vvod_data(L):
         row = input('введите ряд:')
         column = input('введите столбец:')
         if not (row.isdigit() and column.isdigit()):
-            print("нужно ввести цифры!")
+            print("нужно ввести цифры")
             continue
         x,y = int(row),int(column)
         if not ((0<x<4) and (0<y<4)):
