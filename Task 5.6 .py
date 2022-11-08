@@ -61,9 +61,11 @@ while True:
         zn ='0'
     if count == 8: 
         print ("Ничья")
+        vivod_matrici (matrix)
         break
     if proverka(matrix,zn):
         print(f"winner {zn}")
+        vivod_matrici (matrix)
         break
 
     count += 1
